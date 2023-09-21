@@ -1,0 +1,69 @@
+.welcomeBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.image {
+    background-image: url(./pictures/front.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    width: 30rem;
+    margin-left: 4rem;
+}
+
+/* text container design */
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 50%;
+}
+
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    margin: 1rem;
+    color: #D8CBA7;
+    text-shadow: 1rem .5rem 1rem #866C46;
+}
+
+
+/* Responsive */
+@media screen and (min-width:901px) and (max-width:1001px) {
+    .image {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:900px) {
+    .image {
+        margin-left: 1rem;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .image {
+        justify-self: center;
+        margin-left: 0;
+    }
+
+    .welcome {
+        position: absolute;
+        top: 20rem;
+        background-color: #4F3517;
+        border-radius: 2rem;
+        width: max-content;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}

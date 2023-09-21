@@ -1,0 +1,118 @@
+.livingBody {
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+}
+
+.livingImage {
+    background-image: url(./pictures/living\ dining.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+    height: 40rem;
+}
+
+.livingTextContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #4F3517;
+    text-align: center;
+    width: 30%;
+}
+
+.livingTitle {
+    font-size: 4rem;
+    color: #D8CBA7;
+    text-shadow: 1rem .5rem 1rem #283618;
+    margin-top: 5rem;
+}
+
+.livingDescription {
+    font-size: 2.5rem;
+    color: #939878;
+    width: 87%;
+    margin: 1rem;
+    background-color: #866c4630;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+/* Responsive */
+@media screen and (min-width:1201px) and (max-width:1400px) {
+    .livingDescription {
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1200px) {
+    .livingBody {
+        flex-direction: column;
+    }
+
+    .livingImage {
+        width: 100%;
+        height: 30rem;
+    }
+
+    .livingTextContainer {
+        width: 100%;
+    }
+
+    .livingTitle {
+        margin: 1rem;
+    }
+
+    .livingDescription {
+        align-self: center;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:900px) {
+    .livingBody {
+        flex-direction: column;
+    }
+
+    .livingImage {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .livingTextContainer {
+        width: 100%;
+    }
+
+    .livingTitle {
+        margin: 1rem;
+        font-size: 3rem;
+    }
+
+    .livingDescription {
+        font-size: 2rem;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .livingBody {
+        flex-direction: column;
+    }
+
+    .livingImage {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .livingTextContainer {
+        width: 100%;
+    }
+
+    .livingTitle {
+        margin: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .livingDescription {
+        font-size: 1.75rem;
+        align-self: center;
+    }
+}

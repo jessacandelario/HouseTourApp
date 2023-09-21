@@ -1,0 +1,73 @@
+.backyardBody {
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    background-color: #939878;
+    height: max-content;
+    font-family: 'Dancing Script', cursive;
+    text-align: left;
+}
+
+.backyardImage {
+    background-image: url(./pictures/backyard\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+}
+
+.backyardTitle {
+    position: absolute;
+    top: 22rem;
+    left: 25%;
+    font-size: 4rem;
+    color: #283618;
+    text-shadow: .5rem .5rem 1rem #866C46;
+}
+
+.backyardDescription {
+    position: absolute;
+    top: 28rem;
+    left: 20%;
+    font-size: 2rem;
+    color: #283618;
+    width: 35rem;
+    background-color: #866c46ad;
+    border: 2px solid #4F3517;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/* Responsive */
+@media screen and (min-width:901px) and (max-width:1100px) {
+    .backyardTitle {
+        width: 30rem;
+        font-size: 3.5rem;
+        top: 23rem;
+    }
+
+    .backyardDescription {
+        font-size: 1.25;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .backyardImage {
+        height: 25rem;
+    }
+
+    .backyardTitle {
+        position: initial;
+        text-align: center;
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .backyardDescription {
+        position: initial;
+        width: initial;
+        padding: 1.5rem;
+        margin: 2rem;
+        font-size: 1;
+    }
+}

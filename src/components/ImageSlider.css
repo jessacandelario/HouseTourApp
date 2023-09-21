@@ -1,0 +1,76 @@
+/* Image slides container*/
+.sliderContainer {
+    height: inherit;
+    width: 100%;
+    margin: 0;
+}
+
+.sliderContainer p {
+    font-family: 'Dancing Script', cursive;
+    color: #D8CBA7;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+    text-shadow: .25rem .25rem 1rem #866C46;
+}
+
+/* Arrow buttom design */
+.goLeft,
+.goRight {
+    position: absolute;
+    font-size: 3rem;
+    top: 16rem;
+    background-color: #93987894;
+    border-radius: 2rem;
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.goLeft {
+    left: 2rem;
+}
+
+.goRight {
+    right: 2rem;
+}
+
+.goLeft:hover,
+.goRight:hover {
+    background-color: #D8CBA7;
+
+}
+
+/* Image slides items*/
+.slide1 {
+    background-image: url(./pictures/living\ dining.jpg);
+}
+
+.slide2 {
+    background-image: url(./pictures/bedroom\ 1.jpg);
+}
+
+.slide3 {
+    background-image: url(./pictures/kitchen.jpg);
+}
+
+.slide4 {
+    background-image: url(./pictures/bedroom\ 2.jpg);
+}
+
+.slide5 {
+    background-image: url(./pictures/backyard\ 2.jpg);
+}
+
+.slide1,
+.slide2,
+.slide3,
+.slide4,
+.slide5 {
+    background-position: center;
+    background-size: cover;
+    height: 31rem;
+    width: 100%;
+    transition: 1s ease-in-out;
+}

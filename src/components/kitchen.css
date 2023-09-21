@@ -1,0 +1,115 @@
+.kitchenBody {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Dancing Script', cursive;
+    height: max-content;
+    background-color: #D8CBA7;
+}
+
+.kitchenImage {
+    background-image: url(./pictures/kitchen.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+}
+
+.kitchenTextContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #D8CBA7;
+    text-align: center;
+    width: 40%;
+
+}
+
+.kitchenTitle {
+    font-size: 4rem;
+    color: #4F3517;
+    text-shadow: 1rem .5rem 1rem #939878;
+    margin-top: 5rem;
+}
+
+.kitchenDescription {
+    font-size: 2.5rem;
+    color: #5E6748;
+    width: 87%;
+    align-self: center;
+    background-color: #866c4630;
+    border-radius: 2rem;
+    border: 2px solid #4F3517;
+    padding: 1rem;
+    margin-top: 0;
+}
+
+
+/* Responsive */
+@media screen and (min-width:1201px) and (max-width:1400px) {
+    .kitchenDescription {
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width:1200px) {
+    .kitchenBody {
+        flex-direction: column;
+    }
+
+    .kitchenImage {
+        height: 30rem;
+    }
+
+    .kitchenTextContainer {
+        width: 100%;
+    }
+
+    .kitchenTitle {
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:900px) {
+    .kitchenBody {
+        flex-direction: column;
+    }
+
+    .kitchenImage {
+        height: 25rem;
+    }
+
+    .kitchenTextContainer {
+        width: 100%;
+    }
+
+    .kitchenTitle {
+        margin: 1rem;
+        font-size: 3rem;
+    }
+
+    .kitchenDescription {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .kitchenBody {
+        flex-direction: column;
+    }
+
+    .kitchenImage {
+        height: 20rem;
+    }
+
+    .kitchenTextContainer {
+        width: 100%;
+    }
+
+    .kitchenTitle {
+        margin: 1rem;
+        font-size: 2.5rem;
+    }
+
+    .kitchenDescription {
+        font-size: 1.75rem;
+    }
+}

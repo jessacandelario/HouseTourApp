@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #283618;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Pangolin', cursive;
+  font-size: 1rem;
+  color: #D8CBA7;
+  background-color: #5E6748;
+}
+
+.headerItems {
+  cursor: pointer;
+}
+
+.headerItems:hover {
+  color: #283618;
+}
+
+/* dropdown items style*/
+.ddItems {
+  background-color: #283618dc;
+  border: #283618;
+  border-radius: .25rem;
+  position: absolute;
+  top: 3.8rem;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.ddItems h4 {
+  margin-left: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.ddItems h4:hover {
+  color: #939878;
+}
+
+.body {
+  text-align: center;
+  background-color: #283618;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: auto;
+}
