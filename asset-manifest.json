@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/HouseTourApp/static/css/main.29570c86.css",
+    "main.js": "/HouseTourApp/static/js/main.94a37017.js",
+    "static/js/787.e740ed7f.chunk.js": "/HouseTourApp/static/js/787.e740ed7f.chunk.js",
+    "static/media/backyard 2.jpg": "/HouseTourApp/static/media/backyard 2.73dcd05d93b92eadabe4.jpg",
+    "static/media/living dining.jpg": "/HouseTourApp/static/media/living dining.3a97dfcf6c622759178c.jpg",
+    "static/media/bedroom 1.jpg": "/HouseTourApp/static/media/bedroom 1.f6a8e549d8ff87098222.jpg",
+    "static/media/bedroom 2.jpg": "/HouseTourApp/static/media/bedroom 2.028f5d58dd82e8fa78f1.jpg",
+    "static/media/front.jpg": "/HouseTourApp/static/media/front.79ab3719a509ce797f85.jpg",
+    "static/media/toilet shower.jpg": "/HouseTourApp/static/media/toilet shower.4d3d4cdf5d5dd7450daa.jpg",
+    "static/media/kitchen.jpg": "/HouseTourApp/static/media/kitchen.a066c71bfa22ba84ce1d.jpg",
+    "static/media/laundry.jpg": "/HouseTourApp/static/media/laundry.ee92b2d81807d630e49b.jpg",
+    "static/media/toilet 1.jpg": "/HouseTourApp/static/media/toilet 1.bf88c69a275bed77900c.jpg",
+    "index.html": "/HouseTourApp/index.html",
+    "main.29570c86.css.map": "/HouseTourApp/static/css/main.29570c86.css.map",
+    "main.94a37017.js.map": "/HouseTourApp/static/js/main.94a37017.js.map",
+    "787.e740ed7f.chunk.js.map": "/HouseTourApp/static/js/787.e740ed7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29570c86.css",
+    "static/js/main.94a37017.js"
+  ]
+}
